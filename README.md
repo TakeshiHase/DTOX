@@ -9,6 +9,8 @@ torch==2.1.0
 torchvision==0.16.0
 torchcam==0.4.0
 ## How to use
-Open and run jupyter notebooks, prediction.ipynb and explainability_analysis.ipynb, to predict of classes of 3D-surface images and to perform explainability analysis, respectively. 
-prediction.ipynb loads optimized deep convoluational neural network model for angle 1 ('resnet18.pth') and predicts classes for sample 3D-surface images in a directory for the samples ('./sample_data/'). 'prediction_results.txt' includes prediction results for each 3D-surface images. 
-explainability_analysis.ipynb loads optimized deep convoluational neural network model for explainability analysis ('model_for_Xgrad.pth') for angle 1 and performs explainability analysis for sample 3D-surface images in a directory for the samples ('./sample_data/') based on Xgrad algorithm.
+Open and run jupyter notebooks, `prediction.ipynb` and `explainability_analysis.ipynb`, to predict of classes of 3D-surface images and to perform explainability analysis, respectively. 
+
+`prediction.ipynb` loads optimized deep convoluational neural network model for angle 1 ('resnet18.pth') and predicts classes for sample 3D-surface images in a directory for the samples ('./sample_data/'). 'prediction_results.txt' includes prediction results for each 3D-surface images. 
+
+`explainability_analysis.ipynb` loads optimized deep convoluational neural network model for explainability analysis ('model_for_Xgrad.pth') for angle 1 and performs explainability analysis for sample 3D-surface images in a directory for the samples ('./sample_data/') based on Xgrad algorithm.
